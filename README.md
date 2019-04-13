@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Adaptive is when you have multiple pages to acommadate specific size screens and responsive is when you have one webpages that reacts to the size of the current screen. 
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Its when you design with mainly or only mobile or desktop in mind so then you try to optimize for the opposit after your webpage is done.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+It converts it to the standard size in pixels.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is the use of extentions like Less or Sass to organize code, make code reusable and make code easier for teams to work with.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorit concept is mixins because I feel as though they help me organize and save time writing code by replacing a bunch of lines of code with just one line of code. Importing is giving me the most trouble because its kind of confusing not knowing whether its working or not.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
