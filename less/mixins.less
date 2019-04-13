@@ -1,1 +1,18 @@
 // Mixins Here
+
+.flexcenter(){
+    display: flex;
+    justify-content: center;
+}
+
+.display(){
+    display:flex;
+}
+.buttonparam(@color,@bcolor){
+    background-color: @bcolor;
+    color: @color;
+    border-color: @bcolor;
+    width: 90px;
+    border-radius: 4px;
+    height: 30px;
+}

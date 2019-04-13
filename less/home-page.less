@@ -1,8 +1,14 @@
 // Home Content
 
 .home {
+  margin-left: 5%;
+  margin-right: 5%;
 
   .intro {
+
+    img{
+      width: 95%;
+    }
 
     h2 {
       padding: 15px;
@@ -15,7 +21,7 @@
   }
 
   .space-images {
-    display: flex;
+    .display();
     flex-wrap: wrap;
     width: 100%;
 
@@ -43,8 +49,9 @@
     margin-top: 60px;
     border-top: 1px solid @main-border-color;
     padding: 50px 60px;
-    display: flex;
-    justify-content: center;
+    .flexcenter();
+    
+  }
 
     .walk-text {
       width: 50%;
@@ -58,6 +65,12 @@
       }
 
       .btn {
+        .display();
+        justify-content: start;
+
+        button{
+          .buttonparam(@color,@bcolor);
+        }
       }
     }
 
@@ -71,5 +84,4 @@
         border-radius: 10px;
       }
     }
-  }
-}// home
+  } // home
