@@ -1,1 +1,31 @@
-// Navigation code here
+.titlenav{
+
+    h1{
+        width: 100%;
+        font-size: 2rem;
+        .flexcenter();
+
+        @media @phone{
+           margin-left:10%; 
+        }
+    }
+
+    nav{
+        .display();
+        justify-content: space-around;
+        flex-direction: row;
+        margin-left: 20%;
+        margin-right: 20%;
+        padding: 10px 0;
+
+        @media @phone{
+            width:80%;
+        }
+
+        a{
+            text-decoration: none;
+            color:black;
+            font-size: 2rem;
+        }
+    }
+}
